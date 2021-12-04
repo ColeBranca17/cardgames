@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <div style="width: 100%; display: table;">
+        <div style="display: table-row; height: 100px;">
+            <div style="width: 50%; height: 100%; display: table-cell; background: green;">
+                <style>
+                    div   {
+                      background-image: url("https://thumbs.dreamstime.com/b/realistic-poker-table-d-rendered-scene-48173934.jpg");
+                      background-size: cover;
+                    }
+                    </style>
+                <background-img src="" alt="table" style="width:100%" class="rotate90">
+            </div>
+            <div style="display: table-cell; background: blue;"> 
+                Right Div
+            </div>
+        </div>
+    </div>
+{% endblock %}

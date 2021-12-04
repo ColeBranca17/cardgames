@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <div class="white" id="space">
+        Welcome To Card Games!
+    </div>
+    <form action="/transfer" method="post">
+        <div class="white">
+            If it's your first time to B&#178; Card Games, please register an account to begin!
+        </div>
+        <button class="btn btn-primary" type="submit" onclick="goToRegister()">Register</button>
+        <div id="space"></div>
+        <div class="white">
+            Already have an account, Login!!!
+        </div>
+        <button class="btn btn-primary" type="submit" onclick="goToLogin()">Login</button>
+    </form>
+
+{% endblock %}

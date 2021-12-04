@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+    <div id="space"></div>
+    <div class="white" class="larger">
+        {{ bottom | urlencode }}
+    </div>
+    <a href="#" onclick="javascript:window.history.back(-1);return false;" class="larger">Back</a>
+{% endblock %}

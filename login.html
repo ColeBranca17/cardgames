@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <style>
+        body {
+        background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fpoker-chips-top-view&psig=AOvVaw3d6FJ6L61mjlwy3UPILeQu&ust=1638484964584000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNiikaTWw_QCFQAAAAAdAAAAABAJ');
+        }
+    </style>
+    <form action="/login" method="post">
+        <div style="background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fpoker-chips-top-view&psig=AOvVaw3d6FJ6L61mjlwy3UPILeQu&ust=1638484964584000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNiikaTWw_QCFQAAAAAdAAAAABAJ');"></div>
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="password" name="password" placeholder="Password" type="password">
+        </div>
+        <button class="btn btn-primary" type="submit">Log In</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,50 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+.white
+{
+    color: #ffffff;
+    text-align: center;
+}
+
+#space
+{
+    margin-bottom: 1rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.larger
+{
+    font-size: 18px;
+}
+
+.rotate90{
+    background-size: cover;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
